@@ -47,6 +47,7 @@ public class MainActivity extends Activity {
         rl = (RelativeLayout) findViewById(R.id.rl);
 
         DisplayMetrics dm = new DisplayMetrics();
+
         getWindowManager().getDefaultDisplay().getMetrics(dm);
 
         Bitmap bitmap1 = BitmapFactory.decodeResource(getResources(), R.drawable.b7);
